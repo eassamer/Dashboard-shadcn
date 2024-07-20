@@ -2,6 +2,12 @@
 
 int main() {
     int b = 0;
-    printf("Hello, World!\n");
+    int a = 0;
+    while (a < 10)
+    {
+        printf("Hello, World!\n");
+        a++;
+    }
+
     return 0;
 }
